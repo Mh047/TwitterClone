@@ -2,7 +2,7 @@
 {
     public class Follow
     {
-        public Guid _id;
+        private Guid _id;
         private Guid _followerId;
         private Guid _followingId;
         private DateTime _followedAt;
