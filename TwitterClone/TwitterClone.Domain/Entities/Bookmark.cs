@@ -2,9 +2,15 @@
 {
     public class Bookmark
     {
+        private Guid _id;
         private Guid _userId;
         private Guid _tweetId;
         private DateTime _bookmarkedAt;
+
+        public Guid Id
+        {
+            get { return _id; }
+        }
 
         public Guid UserId
         {
