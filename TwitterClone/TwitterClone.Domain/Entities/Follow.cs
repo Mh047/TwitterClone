@@ -2,9 +2,15 @@
 {
     public class Follow
     {
+        public Guid _id;
         private Guid _followerId;
         private Guid _followingId;
         private DateTime _followedAt;
+
+        public Guid Id
+        {
+            get { return _id; }
+        }
 
         public Guid FollowerId
         {
