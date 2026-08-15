@@ -3,7 +3,7 @@ namespace TwitterClone.Domain.Entities
 {
     public class Like
     {
-        public Guid _id;
+        private Guid _id;
         private Guid _userId;
         private Guid _tweetId;
         private DateTime _likedAt;
