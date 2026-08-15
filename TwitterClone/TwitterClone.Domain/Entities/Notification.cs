@@ -2,9 +2,15 @@
 {
     public class Notification
     {
+        private Guid _id;
         private Guid _userId;
         private string _message;
         private DateTime _createdAt;
+
+        public Guid Id
+        {
+            get { return _id; }
+        }
 
         public Guid UserId
         {
