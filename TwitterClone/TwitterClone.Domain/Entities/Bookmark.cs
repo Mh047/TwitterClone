@@ -1,11 +1,19 @@
 ﻿namespace TwitterClone.Domain.Entities
 {
-    public class Bookmark
+    public class Bookmark : BaseEntity
     {
+<<<<<<< HEAD
+        public Bookmark() : base(Guid.NewGuid())
+        {
+
+        }
+
+=======
         private Guid _id;
+>>>>>>> main
         private Guid _userId;
         private Guid _tweetId;
-        private DateTime _bookmarkedAt;
+
 
         public Guid Id
         {
@@ -20,11 +28,6 @@
         public Guid TweetId
         {
             get { return _tweetId; }
-        }
-
-        public DateTime BookmarkedAt
-        {
-            get { return _bookmarkedAt; }
         }
     }
 }
