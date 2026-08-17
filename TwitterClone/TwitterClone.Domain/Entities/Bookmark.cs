@@ -2,17 +2,14 @@
 {
     public class Bookmark : BaseEntity
     {
-<<<<<<< HEAD
+        private Guid _id;
+        private Guid _userId;
+        private Guid _tweetId;
+
         public Bookmark() : base(Guid.NewGuid())
         {
 
         }
-
-=======
-        private Guid _id;
->>>>>>> main
-        private Guid _userId;
-        private Guid _tweetId;
 
 
         public Guid Id

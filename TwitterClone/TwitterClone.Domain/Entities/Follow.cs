@@ -7,15 +7,15 @@
         private Guid _followingId;
         private DateTime _followedAt;
 
-<<<<<<< HEAD
+
         public Follow() : base(Guid.NewGuid())
         {
 
-=======
+        }
         public Guid Id
         {
             get { return _id; }
->>>>>>> main
+
         }
 
         public Guid FollowerId

@@ -8,18 +8,16 @@
         private string _content;
         private DateTime _sentAt;
 
-<<<<<<< HEAD
         public Message() : base(Guid.NewGuid())
         {
 
         }
-=======
+
         public Guid Id
         {
             get { return _id; }
         }
         
->>>>>>> main
         public Guid SenderId
         {
             get { return _senderId; }
