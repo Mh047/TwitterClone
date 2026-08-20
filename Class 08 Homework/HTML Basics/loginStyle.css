@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 580px;
+    text-align: center;
+}
+
+
+/* Twitter Logo */
+
+.twitter-logo {
+    width: 45px;
+    height: 45px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-logo img {
+    width: 40px;
+    height: auto;
+
+    display: block;
+}
+
+.twitter-logo span {
+    color: #1da1f2;
+    font-size: 42px;
+}
+
+
+/* Heading */
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+
+/* Form */
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+
+    border: none;
+    border-radius: 25px;
+
+    background-color: #f1f4f6;
+
+    padding: 0 12px;
+
+    margin-bottom: 20px;
+
+    font-size: 18px;
+
+    outline: none;
+}
+
+input::placeholder {
+    color: #657786;
+}
+
+input:focus {
+    background-color: #e9eef2;
+}
+
+
+/* Login Button */
+
+button {
+    width: 100%;
+    height: 48px;
+
+    border: none;
+    border-radius: 25px;
+
+    background-color: #1da1f2;
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #168cd4;
+}
+
+
+/* Links */
+
+.links {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.links a {
+    color: #0084d8;
+
+    font-size: 14px;
+
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links span {
+    color: #657786;
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    .login-container {
+        width: 90%;
+    }
+
+}
